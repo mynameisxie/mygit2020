@@ -21,12 +21,54 @@ Target DLL:      Segger\JL2CM3.dll V2.99.26.0
 Dialog DLL:      TCM.DLL V1.32.0.0
  
 <h2>Project:</h2>
-D:\scanner\SCN_WELDING_10ms\Project\STM32F10x_StdPeriph_Template\MDK-ARM\Project.uvprojx
+F:\mygit2020\SCN_WELDING_10ms\Project\STM32F10x_StdPeriph_Template\MDK-ARM\Project.uvprojx
 Project File Date:  04/13/2020
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'STM3210B-EVAL'
+compiling stm32f10x_it.c...
+..\..\..\App\Bsp\include\Bsp_Uart.h(130): warning:  #1295-D: Deprecated declaration TIM3_PWM_ToGPIO_Init - give arg types
+  extern void TIM3_PWM_ToGPIO_Init();
+..\..\..\App\Bsp\include\Bsp_Uart.h(134): warning:  #1295-D: Deprecated declaration TIM3_PWM_Open - give arg types
+  extern int8_t TIM3_PWM_Open();
+..\..\..\App\Bsp\include\Bsp_Uart.h(135): warning:  #1295-D: Deprecated declaration TIM3_PWM_Close - give arg types
+  extern int8_t TIM3_PWM_Close();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(26): warning:  #1295-D: Deprecated declaration FlushCursorIncreas - give arg types
+  extern void FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(28): warning:  #1295-D: Deprecated declaration S_FlushCursorIncreas - give arg types
+  extern void S_FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(31): warning:  #1295-D: Deprecated declaration DigTubeDisplay - give arg types
+  extern void DigTubeDisplay();
+..\..\..\App\Task\CycTask\CycTask.h(26): warning:  #1295-D: Deprecated declaration SwitchIOInit - give arg types
+  extern void SwitchIOInit();
+..\..\..\App\Task\CycTask\CycTask.h(27): warning:  #1295-D: Deprecated declaration FrequencySweep - give arg types
+  extern uint32_t FrequencySweep();
+..\stm32f10x_it.c: 8 warnings, 0 errors
+compiling main.c...
+..\..\..\App\Bsp\include\Bsp_Uart.h(130): warning:  #1295-D: Deprecated declaration TIM3_PWM_ToGPIO_Init - give arg types
+  extern void TIM3_PWM_ToGPIO_Init();
+..\..\..\App\Bsp\include\Bsp_Uart.h(134): warning:  #1295-D: Deprecated declaration TIM3_PWM_Open - give arg types
+  extern int8_t TIM3_PWM_Open();
+..\..\..\App\Bsp\include\Bsp_Uart.h(135): warning:  #1295-D: Deprecated declaration TIM3_PWM_Close - give arg types
+  extern int8_t TIM3_PWM_Close();
+..\..\..\App\Task\CycTask\CycTask.h(26): warning:  #1295-D: Deprecated declaration SwitchIOInit - give arg types
+  extern void SwitchIOInit();
+..\..\..\App\Task\CycTask\CycTask.h(27): warning:  #1295-D: Deprecated declaration FrequencySweep - give arg types
+  extern uint32_t FrequencySweep();
+..\..\..\App\Bsp\FlashBsp\Bsp_Flash.h(20): warning:  #1295-D: Deprecated declaration falshCheck - give arg types
+  uint8_t falshCheck();
+..\..\..\App\Task\IoTask\TouchSwitchTask.h(16): warning:  #1295-D: Deprecated declaration isTouchPushed - give arg types
+  extern uint8_t isTouchPushed();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(26): warning:  #1295-D: Deprecated declaration FlushCursorIncreas - give arg types
+  extern void FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(28): warning:  #1295-D: Deprecated declaration S_FlushCursorIncreas - give arg types
+  extern void S_FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(31): warning:  #1295-D: Deprecated declaration DigTubeDisplay - give arg types
+  extern void DigTubeDisplay();
+..\main.c(42): warning:  #223-D: function "TouchIOInit" declared implicitly
+  	TouchIOInit();
+..\main.c: 11 warnings, 0 errors
 compiling CycTask.c...
 ..\..\..\App\Task\CycTask\CycTask.h(26): warning:  #1295-D: Deprecated declaration SwitchIOInit - give arg types
   extern void SwitchIOInit();
@@ -67,10 +109,58 @@ compiling CycTask.c...
 ..\..\..\App\Task\CycTask\CycTask.c(239): warning:  #177-D: variable "cnt"  was declared but never referenced
   	static uint8_t cnt = 0;
 ..\..\..\App\Task\CycTask\CycTask.c: 19 warnings, 0 errors
+compiling DisplayTask.c...
+..\..\..\App\Task\SysLedTask\DisplayTask.h(26): warning:  #1295-D: Deprecated declaration FlushCursorIncreas - give arg types
+  extern void FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(28): warning:  #1295-D: Deprecated declaration S_FlushCursorIncreas - give arg types
+  extern void S_FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(31): warning:  #1295-D: Deprecated declaration DigTubeDisplay - give arg types
+  extern void DigTubeDisplay();
+..\..\..\App\Bsp\include\Bsp_Uart.h(130): warning:  #1295-D: Deprecated declaration TIM3_PWM_ToGPIO_Init - give arg types
+  extern void TIM3_PWM_ToGPIO_Init();
+..\..\..\App\Bsp\include\Bsp_Uart.h(134): warning:  #1295-D: Deprecated declaration TIM3_PWM_Open - give arg types
+  extern int8_t TIM3_PWM_Open();
+..\..\..\App\Bsp\include\Bsp_Uart.h(135): warning:  #1295-D: Deprecated declaration TIM3_PWM_Close - give arg types
+  extern int8_t TIM3_PWM_Close();
+..\..\..\App\Bsp\FlashBsp\Bsp_Flash.h(20): warning:  #1295-D: Deprecated declaration falshCheck - give arg types
+  uint8_t falshCheck();
+..\..\..\App\Task\CycTask\CycTask.h(26): warning:  #1295-D: Deprecated declaration SwitchIOInit - give arg types
+  extern void SwitchIOInit();
+..\..\..\App\Task\CycTask\CycTask.h(27): warning:  #1295-D: Deprecated declaration FrequencySweep - give arg types
+  extern uint32_t FrequencySweep();
+..\..\..\App\Task\SysLedTask\DisplayTask.c: 9 warnings, 0 errors
+compiling TouchSwitchTask.c...
+..\..\..\App\Task\SysLedTask\DisplayTask.h(26): warning:  #1295-D: Deprecated declaration FlushCursorIncreas - give arg types
+  extern void FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(28): warning:  #1295-D: Deprecated declaration S_FlushCursorIncreas - give arg types
+  extern void S_FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(31): warning:  #1295-D: Deprecated declaration DigTubeDisplay - give arg types
+  extern void DigTubeDisplay();
+..\..\..\App\Bsp\FlashBsp\Bsp_Flash.h(20): warning:  #1295-D: Deprecated declaration falshCheck - give arg types
+  uint8_t falshCheck();
+..\..\..\App\Bsp\include\Bsp_Uart.h(130): warning:  #1295-D: Deprecated declaration TIM3_PWM_ToGPIO_Init - give arg types
+  extern void TIM3_PWM_ToGPIO_Init();
+..\..\..\App\Bsp\include\Bsp_Uart.h(134): warning:  #1295-D: Deprecated declaration TIM3_PWM_Open - give arg types
+  extern int8_t TIM3_PWM_Open();
+..\..\..\App\Bsp\include\Bsp_Uart.h(135): warning:  #1295-D: Deprecated declaration TIM3_PWM_Close - give arg types
+  extern int8_t TIM3_PWM_Close();
+..\..\..\App\Task\IoTask\TouchSwitchTask.h(16): warning:  #1295-D: Deprecated declaration isTouchPushed - give arg types
+  extern uint8_t isTouchPushed();
+..\..\..\App\Task\CycTask\CycTask.h(26): warning:  #1295-D: Deprecated declaration SwitchIOInit - give arg types
+  extern void SwitchIOInit();
+..\..\..\App\Task\CycTask\CycTask.h(27): warning:  #1295-D: Deprecated declaration FrequencySweep - give arg types
+  extern uint32_t FrequencySweep();
+..\..\..\App\Task\IoTask\TouchSwitchTask.c(123): warning:  #177-D: variable "counter"  was declared but never referenced
+  	static uint16_t counter = 0;
+..\..\..\App\Task\IoTask\TouchSwitchTask.c(124): warning:  #177-D: variable "preState"  was declared but never referenced
+  	static uint8_t preState = 0;
+..\..\..\App\Task\IoTask\TouchSwitchTask.c(12): warning:  #177-D: variable "step"  was declared but never referenced
+  static uint8_t step = 0;
+..\..\..\App\Task\IoTask\TouchSwitchTask.c: 13 warnings, 0 errors
 linking...
-Program Size: Code=14356 RO-data=904 RW-data=284 ZI-data=1412  
+Program Size: Code=14356 RO-data=904 RW-data=288 ZI-data=1416  
 FromELF: creating hex file...
-".\STM3210B-EVAL\STM3210B-EVAL.axf" - 0 Error(s), 19 Warning(s).
+".\STM3210B-EVAL\STM3210B-EVAL.axf" - 0 Error(s), 60 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -93,7 +183,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.0.1
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>

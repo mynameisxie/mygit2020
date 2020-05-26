@@ -12,7 +12,7 @@
 #define TRACK_EXTENT 50 //??????
 uint8_t AlarmCode = 0;
 static uint8_t TskState = 0;
-extern uint8_t LedBuff[3];
+extern uint8_t LedBuff[4];
 uint8_t PWRFlag = 0;//系统启动参数标志
 uint16_t VFB;//反馈电流
 uint16_t maxVFB;//反馈电流2

@@ -22,7 +22,7 @@ extern "C" {
 
 
 extern uint8_t FlushCursor;
-extern 	uint8_t LedBuff[3];
+extern 	uint8_t LedBuff[4];
 extern void FlushCursorIncreas();
 	//开机启动设置专用
 extern void S_FlushCursorIncreas();

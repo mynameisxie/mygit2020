@@ -18,7 +18,7 @@ const uint8_t AsciiCode[]={0xD6,//"U"
 													 0x8A,//""
 };
 uint8_t TubeBuff[]={0x00,0xB3};
-uint8_t LedBuff[3]={0xFF,0xFF,0xFF};
+uint8_t LedBuff[4]={0xFF,0xFF,0xFF,0xFF};
 //ledæ≤Ã¨œ‘ æ
 
 void ledDisplay()
