@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xie User, China, LIC=KRMQD-81PBD-003N9-4YJ8J-WLZ2J-LSC60
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.26.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\scanner\SCN_WELDING_10ms\Project\STM32F10x_StdPeriph_Template\MDK-ARM\Project.uvprojx
+Project File Date:  04/13/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM3210B-EVAL'
+compiling CycTask.c...
+..\..\..\App\Task\CycTask\CycTask.h(26): warning:  #1295-D: Deprecated declaration SwitchIOInit - give arg types
+  extern void SwitchIOInit();
+..\..\..\App\Task\CycTask\CycTask.h(27): warning:  #1295-D: Deprecated declaration FrequencySweep - give arg types
+  extern uint32_t FrequencySweep();
+..\..\..\App\Bsp\include\Bsp_Uart.h(130): warning:  #1295-D: Deprecated declaration TIM3_PWM_ToGPIO_Init - give arg types
+  extern void TIM3_PWM_ToGPIO_Init();
+..\..\..\App\Bsp\include\Bsp_Uart.h(134): warning:  #1295-D: Deprecated declaration TIM3_PWM_Open - give arg types
+  extern int8_t TIM3_PWM_Open();
+..\..\..\App\Bsp\include\Bsp_Uart.h(135): warning:  #1295-D: Deprecated declaration TIM3_PWM_Close - give arg types
+  extern int8_t TIM3_PWM_Close();
+..\..\..\App\Task\IoTask\TouchSwitchTask.h(16): warning:  #1295-D: Deprecated declaration isTouchPushed - give arg types
+  extern uint8_t isTouchPushed();
+..\..\..\App\Bsp\FlashBsp\Bsp_Flash.h(20): warning:  #1295-D: Deprecated declaration falshCheck - give arg types
+  uint8_t falshCheck();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(26): warning:  #1295-D: Deprecated declaration FlushCursorIncreas - give arg types
+  extern void FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(28): warning:  #1295-D: Deprecated declaration S_FlushCursorIncreas - give arg types
+  extern void S_FlushCursorIncreas();
+..\..\..\App\Task\SysLedTask\DisplayTask.h(31): warning:  #1295-D: Deprecated declaration DigTubeDisplay - give arg types
+  extern void DigTubeDisplay();
+..\..\..\App\Task\CycTask\CycTask.c(98): warning:  #940-D: missing return statement at end of non-void function "FrequencyTracking2" 
+  }
+..\..\..\App\Task\CycTask\CycTask.c(35): warning:  #177-D: variable "step"  was declared but never referenced
+  	static uint8_t step = 0;
+..\..\..\App\Task\CycTask\CycTask.c(103): warning:  #177-D: variable "i"  was declared but never referenced
+  	static uint16_t i = 0;
+..\..\..\App\Task\CycTask\CycTask.c(107): warning:  #550-D: variable "flag"  was set but never used
+  	static uint8_t flag = 0;
+..\..\..\App\Task\CycTask\CycTask.c(201): warning:  #177-D: variable "V_Pout"  was declared but never referenced
+  	static uint16_t V_Pout = 0;
+..\..\..\App\Task\CycTask\CycTask.c(202): warning:  #177-D: variable "counter"  was declared but never referenced
+  	static uint8_t counter =0;
+..\..\..\App\Task\CycTask\CycTask.c(235): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint16_t i =0;
+..\..\..\App\Task\CycTask\CycTask.c(237): warning:  #550-D: variable "PreTskState"  was set but never used
+  	static uint8_t PreTskState = S_SELF_TEST;
+..\..\..\App\Task\CycTask\CycTask.c(239): warning:  #177-D: variable "cnt"  was declared but never referenced
+  	static uint8_t cnt = 0;
+..\..\..\App\Task\CycTask\CycTask.c: 19 warnings, 0 errors
+linking...
+Program Size: Code=14356 RO-data=904 RW-data=284 ZI-data=1412  
+FromELF: creating hex file...
+".\STM3210B-EVAL\STM3210B-EVAL.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM3210B-EVAL
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

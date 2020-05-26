@@ -1,0 +1,12 @@
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Task\DiKeyTask\DiKeyTask.c
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Task\MotionTask\MotionTask.h
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\include\types.h
+.\stm3210b-eval\dikeytask.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Task\Instrmnt\DouDirBlower.h
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Task\Instrmnt\SglDirBlower.h
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Task\Instrmnt\Windpusher.h
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Bsp\include\Bsp_OsTask.h
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Task\DiKeyTask\DiKeyTask.h
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Bsp\include\Bsp_Di.h
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Bsp\include\Bsp_Do.h
+.\stm3210b-eval\dikeytask.o: ..\..\..\App\Bsp\include\Bsp_Key.h
